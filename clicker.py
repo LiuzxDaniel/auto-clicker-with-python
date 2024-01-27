@@ -2,13 +2,13 @@ import time, random
 from pynput import keyboard
 from pynput.mouse import Controller, Button
 
-click = 0
 hotkey = "r"
 press_key = Button.left
-up_delay = 0.1
-down_delay = 0.11
+max_delay = 0.1
+min_delay = 0.11
 
 mouse = Controller()
+click = 0
 
 def on_release(key):
     global click
@@ -17,7 +17,7 @@ def on_release(key):
         while True:
             mouse.press(press_key)
             mouse.release(press_key)
-            time.sleep(round(random.uniform(up_delay, down_delay), 4))
+            time.sleep(round(random.uniform(max_delay, min_delay), 4))
 
 
 with keyboard.Listener(on_release=on_release) as listener:
