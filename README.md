@@ -1,1 +1,1 @@
-A very simple auto clicker with python3.
+A very simple auto clicker use python3.
