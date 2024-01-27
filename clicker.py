@@ -8,12 +8,9 @@ max_delay = 0.1
 min_delay = 0.11
 
 mouse = Controller()
-click = 0
 
 def on_release(key):
-    global click
     if key.char == hotkey:
-        click == ~click
         while True:
             mouse.press(press_key)
             mouse.release(press_key)
