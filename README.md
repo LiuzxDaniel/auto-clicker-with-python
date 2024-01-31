@@ -1,7 +1,12 @@
-A very simple auto clicker use python3.
+# A very simple auto clicker using Python 3.
 
-You can easily change the settings of Auto Clicker by changing the values ​​of some variables at the front of the file.
-You can set a random delay if you need. If you don't need to set a random delay, you can set the highest delay and lowest delay to the same value.
+You can easily change the settings of the Auto Clicker by modifying the values of some variables at the beginning of the file.
+If needed, you can set a random delay. If no random delay is required, set the highest and lowest delay to the same value.
 
-Need Pynput.
-You can use "pip3 install pynput" to install pynput.
+Adapted to all systems where Python and Pynput can be installed, such as MacOS, Windows, and Linux.
+
+**Requires Pynput.
+You can install Pynput using the command:**
+```
+pip3 install pynput
+```
