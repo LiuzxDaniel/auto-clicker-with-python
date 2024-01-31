@@ -5,8 +5,9 @@ If needed, you can set a random delay. If no random delay is required, set the h
 
 Adapted to all systems where Python and Pynput can be installed, such as MacOS, Windows, and Linux.
 
-**Requires Pynput.
-You can install Pynput using the command:**
-```
-pip3 install pynput
-```
+> [!IMPORTANT]
+> **Requires Pynput.
+> You can install Pynput using the command:**
+> ```
+> pip3 install pynput
+> ```
